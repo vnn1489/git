@@ -1,0 +1,5 @@
+1: get all repositories >>>> get all branch of all repositories
+2: update & commit all changed of all projects then push all those to corresponding repository corresponding
+
+
+CONTINUE HANDLE CD DIRECTORY

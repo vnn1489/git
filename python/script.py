@@ -25,7 +25,7 @@ if response.status_code == 200:
             subprocess.run(git_clone, shell=True, check=True)
             os.chdir(f"{os.getcwd()}/{repository['name']}")
 
-            # CHUA HIEU DOAN TRY EXCEPT NAY LAI KHIEN CHO CAC DIRECTORY KHOONG BI LONG VAO NHAU
+            # ???? CHUA HIEU DOAN TRY EXCEPT NAY LAI KHIEN CHO CAC DIRECTORY KHOONG BI LONG VAO NHAU
             try:
                 subprocess.run(git_branch, shell=True, check=True)
                 subprocess.run(git_fetch, shell=True, check=True)

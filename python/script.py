@@ -4,11 +4,7 @@ import os
 
 username = 'vnn1489'
 url = f"https://api.github.com/users/{username}/repos"
-
-# Set the desired headers for the request
 headers = {"Accept": "application/vnd.github.v3+json"}
-
-# Make a GET request to the GitHub API
 response = requests.get(url, headers=headers)
 
 if response.status_code == 200:
